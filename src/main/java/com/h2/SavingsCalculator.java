@@ -39,4 +39,8 @@ public class SavingsCalculator {
         return remainindays;
     }
 
+    public float calculate(){
+        return 0f;
+    }
+
 }
