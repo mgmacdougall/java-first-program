@@ -19,7 +19,7 @@ public class App
     private static int add(int[] numbers){
         int sum = 0;
         for (int i=0; i< numbers.length; i++){
-            sum+=i;
+            sum=sum+i;
         }
         return sum;
     }
