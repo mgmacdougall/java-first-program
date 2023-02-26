@@ -22,7 +22,11 @@ public class SavingsCalculator {
     }
 
     private float sumOfDebits(){
-        return 0.0f;
+        float sum=0.0f;
+        for(int i=0; i<this.debits.length; i++){
+            sum+= this.debits[i];
+        }
+        return sum;
     }
 
 }
