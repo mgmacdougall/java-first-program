@@ -14,7 +14,11 @@ public class SavingsCalculator {
 
 
     private float sumOfCredits(){
-        return 0.0f;
+        float sum=0.0f;
+        for(int i=0; i<this.credits.length; i++){
+            sum+= this.credits[i];
+        }
+        return sum;
     }
 
 }
