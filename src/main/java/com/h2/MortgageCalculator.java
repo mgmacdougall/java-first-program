@@ -16,6 +16,6 @@ public class MortgageCalculator {
     }
 
     private int getNumberOfPayments(){
-        return 0;
+        return termInYears*12;
     }
 }
