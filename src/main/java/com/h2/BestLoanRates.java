@@ -12,7 +12,5 @@ public class BestLoanRates {
         }
         return 0.0f;
     }
-    public static void main(String[] args) {
-
-    }
+  
 }
