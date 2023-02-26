@@ -38,7 +38,16 @@ public class MortgageCalculator {
     public String toString(){
         DecimalFormat df = new DecimalFormat("####0.00");
         return "monthlyPayment: " + df.format(monthlyPayment);
-
     }
 
+
+    public static void main(String[] args) {
+        long loanAmount = Long.parseLong(args.split(",")[0]);
+        int termInYears = Integer.parseInt(args.split(",")[1]);
+        float annualRate = Float.parseFloat(args.split(",")[2]);
+
+        MortgageCalculator calculator = new MortgageCalculator(loanAmount, termInYears, annualRate);
+        calculator.calculateMonthlyPayment();
+        calculator.toString();
+    }
 }
