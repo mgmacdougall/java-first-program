@@ -3,6 +3,10 @@ import java.time.LocalDate;
 import java.time.YearMonth;
 
 public class SavingsCalculator {
+
+    public static void main(String[] args) {
+        
+    }
     private float[] credits;
     private float[] debits;
 
